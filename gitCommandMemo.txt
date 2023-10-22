@@ -1,0 +1,14 @@
+既にあるリモートリポジトリからローカルリポジトリを作る方法
+
+
+・任意のフォルダ作成　仮にこれをsampleとする。
+-------------------------
+cd sample
+
+git init (これが必要か要検証)
+
+git remote add origin (＜＞codeを押したときに出てくるhttpsのリンク)
+
+git pull origin main 
+※ブランチ名はmasterかmain要調査
+
