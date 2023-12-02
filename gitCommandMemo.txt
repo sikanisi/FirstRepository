@@ -7,7 +7,7 @@ cd (sampleまでの絶対パス)
 
 git init (これが必要か要検証)
 
-git remote add origin "＜＞codeを押したときに出てくるhttpsのリンク"
+git remote add origin ＜＞codeを押したときに出てくるhttpsのリンク
 
 git pull origin main 
 ※ブランチ名はmasterかmain要調査
@@ -28,4 +28,4 @@ git add .
 
 git commit -m "任意のメッセージ"
  
-git push origin "今いるブランチ名"
+git push origin 今いるブランチ名
